@@ -76,7 +76,7 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#career" className="text-gray-400 hover:text-indigo-400 transition-colors">
+                <a href="https://skill-quiz-app.vercel.app" className="text-gray-400 hover:text-indigo-400 transition-colors">
                   Careers
                 </a>
               </li>
