@@ -20,7 +20,7 @@ export default function HeroSection({ onStartQuiz }: HeroSectionProps) {
         </h1>
 
         <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-          Test your knowledge across multiple categories. Compete with players worldwide and climb the leaderboard.
+          Professional desktop quiz application for institutes. Powerful, feature-rich software to conduct assessments.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
@@ -29,35 +29,28 @@ export default function HeroSection({ onStartQuiz }: HeroSectionProps) {
             className="group relative px-8 py-4 bg-gradient-to-r from-indigo-600 to-purple-600 text-white rounded-full font-bold text-lg hover:shadow-2xl hover:shadow-indigo-500/50 transform hover:scale-105 transition-all duration-300 flex items-center gap-3"
           >
             <Play className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
-            Start Quiz Now
+            Get Demo
             <div className="absolute inset-0 rounded-full bg-gradient-to-r from-indigo-600 to-purple-600 blur-xl opacity-50 -z-10 group-hover:opacity-75 transition-opacity"></div>
           </button>
 
           <button className="px-8 py-4 bg-slate-800/50 backdrop-blur-sm text-white rounded-full font-bold text-lg border-2 border-indigo-500/50 hover:border-indigo-500 hover:bg-slate-800/80 transform hover:scale-105 transition-all duration-300">
-            Join Community
+            Download Now
           </button>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
           <div className="bg-slate-800/30 backdrop-blur-sm rounded-2xl p-6 border border-indigo-500/20 hover:border-indigo-500/50 transition-all duration-300 hover:transform hover:scale-105">
             <div className="text-4xl font-bold bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent mb-2">
-              10K+
+              20+
             </div>
-            <div className="text-gray-400">Active Players</div>
+            <div className="text-gray-400">Total Institutes Connected</div>
           </div>
 
           <div className="bg-slate-800/30 backdrop-blur-sm rounded-2xl p-6 border border-purple-500/20 hover:border-purple-500/50 transition-all duration-300 hover:transform hover:scale-105">
             <div className="text-4xl font-bold bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent mb-2">
-              500+
+              2
             </div>
-            <div className="text-gray-400">Quiz Categories</div>
-          </div>
-
-          <div className="bg-slate-800/30 backdrop-blur-sm rounded-2xl p-6 border border-pink-500/20 hover:border-pink-500/50 transition-all duration-300 hover:transform hover:scale-105">
-            <div className="text-4xl font-bold bg-gradient-to-r from-pink-500 to-indigo-500 bg-clip-text text-transparent mb-2">
-              1M+
-            </div>
-            <div className="text-gray-400">Questions Answered</div>
+            <div className="text-gray-400">Question Types</div>
           </div>
         </div>
       </div>

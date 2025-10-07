@@ -4,7 +4,6 @@ import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import AboutSection from './components/AboutSection';
 import VisionMissionSection from './components/VisionMissionSection';
-import LeaderboardSection from './components/LeaderboardSection';
 import CareerSection from './components/CareerSection';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
@@ -25,7 +24,6 @@ function App() {
       <HeroSection onStartQuiz={handleStartQuiz} />
       <AboutSection />
       <VisionMissionSection />
-      <LeaderboardSection />
       <CareerSection />
       <ContactSection />
       <Footer />

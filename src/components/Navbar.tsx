@@ -66,12 +66,6 @@ export default function Navbar({ onLoginClick }: NavbarProps) {
               Vision & Mission
             </button>
             <button
-              onClick={() => scrollToSection('leaderboard')}
-              className="text-gray-300 hover:text-white transition-colors duration-200"
-            >
-              Leaderboard
-            </button>
-            <button
               onClick={() => scrollToSection('career')}
               className="text-gray-300 hover:text-white transition-colors duration-200"
             >
@@ -118,12 +112,6 @@ export default function Navbar({ onLoginClick }: NavbarProps) {
               className="block w-full text-left px-4 py-2 text-gray-300 hover:text-white hover:bg-indigo-600/20 transition-colors duration-200"
             >
               Vision & Mission
-            </button>
-            <button
-              onClick={() => scrollToSection('leaderboard')}
-              className="block w-full text-left px-4 py-2 text-gray-300 hover:text-white hover:bg-indigo-600/20 transition-colors duration-200"
-            >
-              Leaderboard
             </button>
             <button
               onClick={() => scrollToSection('career')}

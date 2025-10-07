@@ -16,7 +16,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-gray-400 leading-relaxed mb-6">
-              Empowering learners worldwide with skill-based quizzes and interactive challenges.
+              Professional desktop quiz software for educational institutes. Trusted by schools and coaching centers.
             </p>
             <div className="flex gap-3">
               <a
@@ -71,12 +71,7 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#leaderboard" className="text-gray-400 hover:text-indigo-400 transition-colors">
-                  Leaderboard
-                </a>
-              </li>
-              <li>
-                <a href="https://skill-quiz-app.vercel.app" className="text-gray-400 hover:text-indigo-400 transition-colors">
+                <a href="#career" className="text-gray-400 hover:text-indigo-400 transition-colors">
                   Careers
                 </a>
               </li>
@@ -84,31 +79,31 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-white font-bold text-lg mb-6">Resources</h3>
+            <h3 className="text-white font-bold text-lg mb-6">Product</h3>
             <ul className="space-y-3">
               <li>
                 <a href="#" className="text-gray-400 hover:text-indigo-400 transition-colors">
-                  Help Center
+                  Features
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-400 hover:text-indigo-400 transition-colors">
-                  Community
+                  Pricing
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-400 hover:text-indigo-400 transition-colors">
-                  Blog
+                  Demo Video
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-400 hover:text-indigo-400 transition-colors">
-                  API Documentation
+                  Documentation
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-400 hover:text-indigo-400 transition-colors">
-                  Tutorials
+                  Download
                 </a>
               </li>
             </ul>

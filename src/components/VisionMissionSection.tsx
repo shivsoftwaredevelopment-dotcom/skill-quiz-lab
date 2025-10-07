@@ -11,7 +11,7 @@ export default function VisionMissionSection() {
             </span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Our commitment to revolutionizing education through engaging and accessible quiz experiences.
+            Our commitment to providing reliable and efficient assessment solutions for educational institutions.
           </p>
         </div>
 
@@ -25,9 +25,9 @@ export default function VisionMissionSection() {
               </div>
               <h3 className="text-3xl font-bold text-white mb-4">Our Vision</h3>
               <p className="text-gray-300 text-lg leading-relaxed">
-                To become the world's leading quiz platform that transforms learning into an exciting journey
-                of discovery. We envision a future where knowledge is accessible, engaging, and fun for everyone,
-                regardless of age or background.
+                To become India's most trusted desktop quiz software for educational institutes. We envision
+                making quality assessment tools accessible and affordable for every school and coaching center,
+                helping them conduct fair and efficient examinations.
               </p>
             </div>
           </div>
@@ -41,9 +41,9 @@ export default function VisionMissionSection() {
               </div>
               <h3 className="text-3xl font-bold text-white mb-4">Our Mission</h3>
               <p className="text-gray-300 text-lg leading-relaxed">
-                To empower learners worldwide by providing an innovative, interactive platform that makes
-                education enjoyable and effective. We strive to create a community where curiosity thrives
-                and knowledge knows no bounds.
+                To empower educational institutes with powerful, user-friendly software that simplifies
+                assessment processes. We provide reliable technology and dedicated support to help educators
+                focus on teaching while we handle the technical aspects of conducting exams.
               </p>
             </div>
           </div>
@@ -59,10 +59,10 @@ export default function VisionMissionSection() {
                 </div>
               </div>
               <div>
-                <h4 className="text-2xl font-bold text-white mb-3">Passion for Learning</h4>
+                <h4 className="text-2xl font-bold text-white mb-3">Quality First</h4>
                 <p className="text-gray-400 leading-relaxed">
-                  We believe that education should ignite passion and curiosity. Our platform is designed
-                  to inspire learners to explore new topics and challenge themselves continuously.
+                  We believe in delivering top-quality software that institutes can rely on. Our application
+                  is thoroughly tested and regularly updated to ensure smooth operation and maximum satisfaction.
                 </p>
               </div>
             </div>
@@ -77,10 +77,10 @@ export default function VisionMissionSection() {
                 </div>
               </div>
               <div>
-                <h4 className="text-2xl font-bold text-white mb-3">Global Impact</h4>
+                <h4 className="text-2xl font-bold text-white mb-3">Customer Support</h4>
                 <p className="text-gray-400 leading-relaxed">
-                  With users from over 150 countries, we're building a global community of learners
-                  who share knowledge, compete fairly, and grow together.
+                  Dedicated technical support team available to assist you. We provide training, troubleshooting,
+                  and regular updates to ensure you get the most out of our software.
                 </p>
               </div>
             </div>
