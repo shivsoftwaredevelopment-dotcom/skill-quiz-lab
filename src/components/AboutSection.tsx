@@ -7,11 +7,11 @@ export default function AboutSection() {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-bold mb-6">
             <span className="bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent">
-              About QuizMaster
+              About Skill Quiz LAB
             </span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            QuizMaster is a cutting-edge quiz platform designed to make learning fun, engaging, and competitive.
+            Skill Quiz LAB is a cutting-edge quiz platform designed to make learning fun, engaging, and competitive.
             We believe in the power of knowledge and the thrill of healthy competition.
           </p>
         </div>
@@ -78,7 +78,7 @@ export default function AboutSection() {
           <p className="text-lg text-gray-200 leading-relaxed text-center">
             Our platform combines education with entertainment, making it easy to learn new things while having fun.
             Whether you're a student preparing for exams, a professional looking to upskill, or simply someone who loves trivia,
-            QuizMaster offers something for everyone. With our innovative scoring system, personalized recommendations,
+            Skill Quiz LAB offers something for everyone. With our innovative scoring system, personalized recommendations,
             and social features, learning has never been more exciting.
           </p>
         </div>

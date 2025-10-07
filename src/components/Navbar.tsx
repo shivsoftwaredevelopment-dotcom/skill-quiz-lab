@@ -42,7 +42,7 @@ export default function Navbar({ onLoginClick }: NavbarProps) {
               <div className="absolute inset-0 blur-xl bg-indigo-500/50 -z-10"></div>
             </div>
             <span className="text-2xl font-bold bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent">
-              QuizMaster
+              Skill Quiz LAB
             </span>
           </div>
 

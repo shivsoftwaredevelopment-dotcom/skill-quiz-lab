@@ -12,11 +12,11 @@ export default function Footer() {
                 <div className="absolute inset-0 blur-xl bg-indigo-500/50 -z-10"></div>
               </div>
               <span className="text-2xl font-bold bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent">
-                QuizMaster
+                Skill Quiz LAB
               </span>
             </div>
             <p className="text-gray-400 leading-relaxed mb-6">
-              Empowering learners worldwide with engaging quizzes and interactive challenges.
+              Empowering learners worldwide with skill-based quizzes and interactive challenges.
             </p>
             <div className="flex gap-3">
               <a
@@ -149,10 +149,10 @@ export default function Footer() {
         <div className="border-t border-indigo-500/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-400 text-sm text-center md:text-left">
-              © 2025 QuizMaster. All rights reserved.
+              © 2025 Skill Quiz LAB. All rights reserved.
             </p>
             <p className="text-gray-400 text-sm flex items-center gap-2">
-              Made with <Heart className="w-4 h-4 text-red-500 fill-current" /> by the QuizMaster Team
+              Made with <Heart className="w-4 h-4 text-red-500 fill-current" /> by the Skill Quiz LAB Team
             </p>
           </div>
         </div>

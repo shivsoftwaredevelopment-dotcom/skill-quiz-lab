@@ -79,8 +79,8 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <h4 className="text-lg font-semibold text-white mb-1">Email</h4>
-                    <p className="text-gray-400">contact@quizmaster.com</p>
-                    <p className="text-gray-400">support@quizmaster.com</p>
+                    <p className="text-gray-400">contact@skillquizlab.com</p>
+                    <p className="text-gray-400">support@skillquizlab.com</p>
                   </div>
                 </div>
 
