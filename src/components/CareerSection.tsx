@@ -56,43 +56,14 @@ export default function CareerSection() {
 
         <div className="bg-gradient-to-r from-indigo-600/20 to-purple-600/20 backdrop-blur-sm rounded-3xl p-12 border border-indigo-500/30">
           <h3 className="text-3xl font-bold text-white mb-6 text-center">Open Positions</h3>
-          <div className="space-y-4">
-            <div className="bg-slate-800/50 rounded-xl p-6 border border-indigo-500/20 hover:border-indigo-500/50 transition-all">
-              <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-                <div>
-                  <h4 className="text-xl font-bold text-white mb-2">Senior Full Stack Developer</h4>
-                  <p className="text-gray-400">Remote • Full-time</p>
-                </div>
-                <button className="px-6 py-2 bg-gradient-to-r from-indigo-600 to-purple-600 text-white rounded-full font-semibold hover:shadow-lg hover:shadow-indigo-500/50 transition-all">
-                  Apply Now
-                </button>
-              </div>
-            </div>
-
-            <div className="bg-slate-800/50 rounded-xl p-6 border border-indigo-500/20 hover:border-indigo-500/50 transition-all">
-              <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-                <div>
-                  <h4 className="text-xl font-bold text-white mb-2">UI/UX Designer</h4>
-                  <p className="text-gray-400">Remote • Full-time</p>
-                </div>
-                <button className="px-6 py-2 bg-gradient-to-r from-indigo-600 to-purple-600 text-white rounded-full font-semibold hover:shadow-lg hover:shadow-indigo-500/50 transition-all">
-                  Apply Now
-                </button>
-              </div>
-            </div>
-
-            <div className="bg-slate-800/50 rounded-xl p-6 border border-indigo-500/20 hover:border-indigo-500/50 transition-all">
-              <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-                <div>
-                  <h4 className="text-xl font-bold text-white mb-2">Content Creator</h4>
-                  <p className="text-gray-400">Remote • Part-time</p>
-                </div>
-                <button className="px-6 py-2 bg-gradient-to-r from-indigo-600 to-purple-600 text-white rounded-full font-semibold hover:shadow-lg hover:shadow-indigo-500/50 transition-all">
-                  Apply Now
-                </button>
-              </div>
-            </div>
+          <div className="flex justify-center">
+            <button className="px-10 py-4 bg-gradient-to-r from-indigo-600 to-purple-600 text-white rounded-full font-bold text-lg hover:shadow-2xl hover:shadow-indigo-500/50 transform hover:scale-105 transition-all duration-300">
+              Apply Now
+            </button>
           </div>
+          <p className="text-center text-gray-400 mt-6">
+            Interested in joining our team? Click above to submit your application.
+          </p>
         </div>
       </div>
     </section>

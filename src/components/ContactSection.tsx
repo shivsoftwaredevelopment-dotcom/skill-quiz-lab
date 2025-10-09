@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Mail, Send, MapPin, Phone } from 'lucide-react';
+import { supabase } from '../lib/supabase';
 
 export default function ContactSection() {
   const [formData, setFormData] = useState({
@@ -10,20 +11,38 @@ export default function ContactSection() {
 
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
+  const [error, setError] = useState('');
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
+    setError('');
 
-    await new Promise((resolve) => setTimeout(resolve, 1500));
+    try {
+      const { error: insertError } = await supabase
+        .from('contact_messages')
+        .insert([
+          {
+            name: formData.name,
+            email: formData.email,
+            message: formData.message,
+          },
+        ]);
 
-    setIsSubmitting(false);
-    setSubmitted(true);
+      if (insertError) throw insertError;
 
-    setTimeout(() => {
-      setSubmitted(false);
-      setFormData({ name: '', email: '', message: '' });
-    }, 3000);
+      setIsSubmitting(false);
+      setSubmitted(true);
+
+      setTimeout(() => {
+        setSubmitted(false);
+        setFormData({ name: '', email: '', message: '' });
+      }, 3000);
+    } catch (err) {
+      console.error('Error submitting message:', err);
+      setError('Failed to send message. Please try again.');
+      setIsSubmitting(false);
+    }
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -131,6 +150,11 @@ export default function ContactSection() {
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="space-y-6">
+                {error && (
+                  <div className="bg-red-500/10 border border-red-500/50 rounded-xl p-4">
+                    <p className="text-red-400 text-sm">{error}</p>
+                  </div>
+                )}
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-2">
                     Your Name
