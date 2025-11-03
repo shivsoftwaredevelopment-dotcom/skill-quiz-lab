@@ -33,9 +33,14 @@ export default function HeroSection({ onStartQuiz }: HeroSectionProps) {
             <div className="absolute inset-0 rounded-full bg-gradient-to-r from-indigo-600 to-purple-600 blur-xl opacity-50 -z-10 group-hover:opacity-75 transition-opacity"></div>
           </button>
 
-          <button className="px-8 py-4 bg-slate-800/50 backdrop-blur-sm text-white rounded-full font-bold text-lg border-2 border-indigo-500/50 hover:border-indigo-500 hover:bg-slate-800/80 transform hover:scale-105 transition-all duration-300">
+          <a
+            href="https://appstoreai.lovable.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-8 py-4 bg-slate-800/50 backdrop-blur-sm text-white rounded-full font-bold text-lg border-2 border-indigo-500/50 hover:border-indigo-500 hover:bg-slate-800/80 transform hover:scale-105 transition-all duration-300 inline-block"
+          >
             Download Now
-          </button>
+          </a>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
